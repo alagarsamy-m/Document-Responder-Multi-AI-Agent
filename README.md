@@ -75,4 +75,4 @@ pip install -r requirements.txt
 - The system is designed for local, offline use with privacy and speed benefits.
 
 ## Screenshots
-![Screenshot 2025-07-25 231525](screenshots/Screenshot 2025-07-25 231525.png)
+![Screenshot 2025-07-25 231525](screenshots/Screenshot%202025-07-25%20231525.png)
