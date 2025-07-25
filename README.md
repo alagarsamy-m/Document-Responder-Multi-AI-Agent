@@ -9,7 +9,7 @@ Document Responder AI is a multi-agent AI system that allows users to upload doc
 - Ask questions about the uploaded documents via a chat interface.
 - Answers are generated using a local LLaMA 3-8B model with retrieval-augmented generation.
 - Clear chat history to start new conversations.
-- Uses PyMuPDF for PDF processing without requiring Poppler.
+- Uses PyMuPDF for PDF processing.
 
 ## Project Structure
 ```
@@ -18,7 +18,7 @@ Document Responder AI is a multi-agent AI system that allows users to upload doc
 ├── app.py                  # Streamlit web application UI
 ├── requirements.txt        # Python dependencies
 ├── MODEL_USAGE.md          # Instructions for using the local LLaMA model with Ollama
-├── README.md               # Project documentation (this file)
+├── README.md               # Project documentation
 ├── chroma_db/              # Persistent Chroma vector store database files
 └── docs/                   # Uploaded documents folder and additional docs
 ```
@@ -30,7 +30,7 @@ Document Responder AI is a multi-agent AI system that allows users to upload doc
 - Ollama with local LLaMA 3-8B model running
 - ChromaDB and faiss-cpu for vector storage and similarity search
 - sentence-transformers for embedding models
-- unstructured[pdf], pypdf, pymupdf for document parsing (PDF support without Poppler)
+- unstructured[pdf], pypdf, pymupdf for document parsing
 - torch
 - streamlit-option-menu
 - tiktoken
@@ -74,8 +74,5 @@ pip install -r requirements.txt
 - Ensure the `models` directory contains the local LLaMA model files for Ollama.
 - The system is designed for local, offline use with privacy and speed benefits.
 
-## License
-Specify your license here.
-
-## Contact
-For questions or support, please contact [Your Contact Information].
+## Screenshots
+![Screenshot 2025-07-25 231525](screenshots/Screenshot 2025-07-25 231525.png)
