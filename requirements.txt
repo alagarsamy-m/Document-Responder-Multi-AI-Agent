@@ -1,0 +1,13 @@
+langchain
+langchain-community
+sentence-transformers
+chromadb
+faiss-cpu
+unstructured[pdf]
+pypdf
+pymupdf
+python-docx
+streamlit
+tiktoken
+streamlit-option-menu
+torch
