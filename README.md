@@ -180,3 +180,9 @@ streamlit run ui/main_app.py
 
 
 **Document Responder AI** - Your intelligent, privacy-focused document analysis companion.
+
+## Screenshots
+![Screenshot 2025-08-05 140103](screenshots/Screenshot%202025-08-05%20140103.png)
+![Screenshot 2025-08-05 140558](screenshots/Screenshot%202025-08-05%20140558.png)
+![Screenshot 2025-08-05 140622](screenshots/Screenshot%202025-08-05%20140622.png)
+![Screenshot 2025-08-05 140732](screenshots/Screenshot%202025-08-05%20140732.png)
