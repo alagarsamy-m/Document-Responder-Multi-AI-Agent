@@ -155,11 +155,18 @@ torch                       # PyTorch for embeddings
 
 ### Installation
 ```bash
+
+python -m venv venv
+venv\Scripts\activate
+
 # 1. Install dependencies
 pip install -r requirements.txt
 
 # 2. Download LLaMA 3-8B model
 ollama pull llama3:8b
+ollama serve
+
+ollama run llama3
 
 # 3. Run the application
 streamlit run ui/main_app.py
